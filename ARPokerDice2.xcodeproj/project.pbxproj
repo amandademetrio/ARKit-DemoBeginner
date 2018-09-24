@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D083E8F421588E9C0064FE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083E8F321588E9C0064FE05 /* AppDelegate.swift */; };
-		D083E8F621588E9C0064FE05 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D083E8F521588E9C0064FE05 /* art.scnassets */; };
 		D083E8F821588E9C0064FE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083E8F721588E9C0064FE05 /* ViewController.swift */; };
 		D083E8FB21588E9C0064FE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D083E8F921588E9C0064FE05 /* Main.storyboard */; };
 		D083E8FD21588E9C0064FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D083E8FC21588E9C0064FE05 /* Assets.xcassets */; };
 		D083E90021588E9C0064FE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D083E8FE21588E9C0064FE05 /* LaunchScreen.storyboard */; };
+		D083E90821588ED80064FE05 /* PokerDice.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D083E90721588ED80064FE05 /* PokerDice.scnassets */; };
+		D083E90A21588F600064FE05 /* SimpleScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = D083E90921588F600064FE05 /* SimpleScene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D083E8F021588E9C0064FE05 /* ARPokerDice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPokerDice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D083E8F321588E9C0064FE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D083E8F521588E9C0064FE05 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		D083E8F721588E9C0064FE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D083E8FA21588E9C0064FE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D083E8FC21588E9C0064FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D083E8FF21588E9C0064FE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D083E90121588E9C0064FE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D083E90721588ED80064FE05 /* PokerDice.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = PokerDice.scnassets; sourceTree = "<group>"; };
+		D083E90921588F600064FE05 /* SimpleScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SimpleScene.scn; path = PokerDice.scnassets/SimpleScene.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 		D083E8F221588E9C0064FE05 /* ARPokerDice2 */ = {
 			isa = PBXGroup;
 			children = (
+				D083E90921588F600064FE05 /* SimpleScene.scn */,
+				D083E90721588ED80064FE05 /* PokerDice.scnassets */,
 				D083E8F321588E9C0064FE05 /* AppDelegate.swift */,
-				D083E8F521588E9C0064FE05 /* art.scnassets */,
 				D083E8F721588E9C0064FE05 /* ViewController.swift */,
 				D083E8F921588E9C0064FE05 /* Main.storyboard */,
 				D083E8FC21588E9C0064FE05 /* Assets.xcassets */,
@@ -125,7 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D083E8F621588E9C0064FE05 /* art.scnassets in Resources */,
+				D083E90A21588F600064FE05 /* SimpleScene.scn in Resources */,
+				D083E90821588ED80064FE05 /* PokerDice.scnassets in Resources */,
 				D083E90021588E9C0064FE05 /* LaunchScreen.storyboard in Resources */,
 				D083E8FD21588E9C0064FE05 /* Assets.xcassets in Resources */,
 				D083E8FB21588E9C0064FE05 /* Main.storyboard in Resources */,
